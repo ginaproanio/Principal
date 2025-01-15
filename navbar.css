@@ -95,3 +95,24 @@ nav {
       height: 30px;
     }
   }
+  @media (min-width: 721px) and (max-width: 900px){
+    nav{
+      .links{
+        grid-template-columns: 1fr;
+        justify-items:end;
+        .registro{
+          display: none;
+        }
+        .idiomas{
+          grid-template-columns: 1fr;
+          a{
+            display: none;
+          }
+          .imgnavbar{
+            justify-items: end;
+          }
+        }
+      }
+
+  }
+}
