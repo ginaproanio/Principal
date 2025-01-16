@@ -12,41 +12,41 @@ footer {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       font-size: 24px;
-      .primera {
-        align-self: self-end;
-      }
-      .segunda {
-        align-self: center;
-      }
-      .tercera {
-        align-self: self-end;
-        #separado {
-          margin-top: 20px;
-        }
-      }
+          .primera {
+            align-self: self-end;
+          }
+          .segunda {
+            align-self: center;
+          }
+          .tercera {
+            align-self: self-end;
+            #separado {
+              margin-top: 20px;
+            }
+          }
 
-      .medio {
-        justify-self: center;
-      }
+          .medio {
+            justify-self: center;
+          }
 
-      .ultima {
-        text-align: right;
-        align-self: self-end;
-      }
+          .ultima {
+            text-align: right;
+            align-self: self-end;
+          }
 
-      ul {
-        li {
-          list-style: none;
-        }
-      }
+          ul {
+            li {
+              list-style: none;
+            }
+          }
     }
 
     .copy {
       border-top: solid 2px white;
-      p {
-        margin: 20px 0;
-        text-align: center;
-      }
+          p {
+            margin: 20px 0;
+            text-align: center;
+          }
     }
   }
 
@@ -60,41 +60,40 @@ footer {
     align-items: center;
 
     .segunda {
-      display: grid;
-      padding: 100px;
-      gap: 10px;
+        display: grid;
+        padding: 100px;
+        gap: 10px;
 
-      input {
-        background-color: transparent;
-        border: solid 1px gray;
-        border-radius: 100px;
-        padding: 10px 20px;
-        font-size: 20px;
-      }
+            input {
+              background-color: transparent;
+              border: solid 1px gray;
+              border-radius: 100px;
+              padding: 10px 20px;
+              font-size: 20px;
+            }
 
-      button {
-        background-color: transparent;
-        border: solid 1px orange;
-        color: orange;
-        border-radius: 100px;
-        padding: 10px 20px;
-        font-size: 20px;
-        width: 60%;
-        justify-self: end;
-      }
+            button {
+              background-color: transparent;
+              border: solid 1px orange;
+              color: orange;
+              border-radius: 100px;
+              padding: 10px 20px;
+              font-size: 20px;
+              width: 60%;
+              justify-self: end;
+            }
 
-      p {
-        margin-left: 20px;
-        color: white;
-        font-size: 20px;
-      }
+            p {
+              margin-left: 20px;
+              color: white;
+              font-size: 20px;
+            }
     }
 
     #textFooter {
       font-size: 30px;
       color: white;
       justify-self: center;
-
       span {
         color: orange;
       }
@@ -108,10 +107,10 @@ footer {
     .gris {
       display: none;
     }
+
     .negro {
       .enlaces {
         grid-template-columns: repeat(2, 1fr);
-        height: 0;
         .medio {
           margin-top: 10px;
           justify-self: baseline;
@@ -135,7 +134,20 @@ footer {
     }
   }
 }
-  @media (min-width: 601px) {
+/**
+@media (min-width: 600px) and (max-width: 637) {
+  footer{
+    .negro{
+      .enlaces{
+        .segunda{
+          padding: 50px;
+        }
+      }
+    }
+   }
+  }**/
+  
+  @media (min-width: 600px) {
     footer{
       .gris{
         .segunda{
@@ -147,17 +159,5 @@ footer {
           font-size: 21px;
         }
       }
-      .negro{
-        margin-block-start: -70px;
-      }
     }
-    }
-    @media (min-width: 320px) and (max-width: 600px){
-      footer{
-        .negro{
-          margin-top: 10px;
-          height: 250px;
-        }
-        
-      }
     }

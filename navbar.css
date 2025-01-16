@@ -91,10 +91,9 @@ nav {
         }
       }
     }
-    .imgnavbar{
-      height: 30px;
-    }
+    
   }
+
   @media (min-width: 721px) and (max-width: 900px){
     nav{
       .links{

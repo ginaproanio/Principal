@@ -1,5 +1,4 @@
 #buscar{
-
         button{
             background-color: transparent;
             /**color: white;**/
@@ -18,9 +17,9 @@
         }
 
     } 
-    #buscador{
-        position: absolute;
-        top: 200px;
-        right: 150px;
-    }
+#buscador{
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
     
