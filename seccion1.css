@@ -47,6 +47,7 @@
       display: grid;
       grid-template-columns: 1fr 3fr 1fr;
       align-items: center;
+      padding: 25px;
         .medio {
           background-color: transparent;
           border-radius: 48px;
