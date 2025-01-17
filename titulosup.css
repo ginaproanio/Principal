@@ -1,7 +1,7 @@
 
       #x{
         color: grey;
-        border: solid 1px #B4B7B7;
+        border: solid 1px white;
         border-radius: 24px;
         padding: 8px 32px;
         width: fit-content;
@@ -37,7 +37,7 @@
               gap: 10px;
 
                .gris{
-                color: grey;
+                color: #aba4a4;
                 font-size: 40px;
                 font-weight: 400;
                 line-height: 45px;
